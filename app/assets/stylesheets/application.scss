@@ -1,0 +1,73 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ 
+ @import "bootstrap";
+
+body{
+   background-image: url("http://imd.ntub.edu.tw/style/5/images/bg.gif");
+ }
+ .shadow-style{
+   box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.1);
+ }
+ .shadow-style2{
+   box-shadow: 0px 0px 3px 5px rgba(0,0,0,0.1);
+ }
+ .main-font-color{
+   color: #004080;
+   font-size: 14px;
+ }
+ 
+ .main-background{
+   background: #b6e0f9;
+ }
+ 
+.navbar-column{
+  color: #004080;
+  background: #ddd;
+  height: 30px;
+  font-size: 12px;
+}
+
+.form-style{
+  height: 20px;
+  line-hight: 20px;
+  font-size: 12px;
+}
+
+.breadcrumb-style{
+  background: #b6e0f9;
+}
+
+.caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  border-top: 4px solid;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+
+.head-img-style{
+  width: 100%;
+}
+
+.footer-column{
+  color: #004080;
+  font-size: 12px;
+  padding: 10px;
+}
