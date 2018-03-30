@@ -81,7 +81,17 @@
     </div>
     
   </div>
+  
+  
+  
   <div class="col-10 border rounded p-1 shadow-style2">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb breadcrumb-style2">
+        <ul></ul>
+          <li class="breadcrumb-item"><a href="#" class="main-font-color">首頁</a></li>
+          <li class="breadcrumb-item"><a class="main-font-color"><%= link_to '徵才資訊', @home, class: "main-font-color" %></a></li>
+      </ol>
+    </nav>
     <table class="table">
       <% @mainrow_content1.each do | content | %>
         <tr>
